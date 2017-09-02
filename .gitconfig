@@ -1,0 +1,11 @@
+[user]
+    email = bvsatyaram@gmail.com
+    name = BV Satyaram
+[core]
+    editor = 'vim'
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
